@@ -1,6 +1,14 @@
 body {margin:0;}
+* {
+    * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+
+}
 ul {
+    border-radius: 12px 12px;
    height: 5.2vh;
    width: 101vw;
    font-size: 3.05vh;
