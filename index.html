@@ -1,18 +1,64 @@
-
-<!DOCTYPE html>
+Hj<!DOCTYPE html>
 <html>
-<title> Menu </title>
- <head><link rel="stylesheet" href="style2.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>ðŸ”’ MSProducts</title>
+<head>
+  <link rel="stylesheet" href="style.css">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body> <h1> Teste novo site Mizael</h1>
-
-  <ul class="nav2">
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="cursos.html">Cursos</a></li>
-    <li><a href="sobre.html">Sobre</a></li>
-    <li style="float:right"><a class="active" href="https://lista.mercadolivre.com.br/_CustId_176774316">Loja</a></li>
-  </ul>
-  
+<header>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+<a href="index.html" class="active">MS Meu Negocio</a>
+<!-- Navigation links (hidden by default) -->
+<div id="Links">    
+  <a href="cursos.html">Cursos</a>
+  <a href="acessorios.html">Acessorios</a>
+  <a href="sobre.html">Sobre</a>
+</div>
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
+</header>
+<script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("Links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<script>
+  addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+      var index = 0;
+      const slides = document.querySelectorAll(".slides");
+      const classHide = "slides-hidden", count = slides.length;
+      nextSlide();
+      function nextSlide() {
+          slides[(index ++) % count].classList.add(classHide);
+          slides[index % count].classList.remove(classHide);
+          setTimeout(nextSlide, 1500);
+      }
+  });
+</script>
+<body>
+  <h2 style="text-align:center; cursor: pointer;" onclick="window.location='https://lista.mercadolivre.com.br/_CustId_176774316';">Ofertas Clique Aqui ðŸ›’ </h2>
+  <h4 style="text-align:center">Produtos|Cursos|Perfumes</h4>    
+    <section>
+        <img class="slides slides-hidden" src="img/lacoste.jpeg">
+        <img class="slides slides-hidden" src="img/212se.jpg">
+        <img class="slides slides-hidden" src="img/jaques.jpeg">
+       <img class="slides slides-hidden" src="img/one.jpeg">
+      <img class="slides slides-hidden" src="img/britney.jpg">
+      <img class="slides slides-hidden" src="img/animale.jpg">
+    </section>
+    
   <div class = "gallery">
     <div class = "box">
       <div class = "image">
@@ -20,16 +66,51 @@
 "https://produto.mercadolivre.com.br/MLB-1910922076-her-golden-secret-antnio-bandeira-_JM">
           <img src =
 "img/hergoldenkit.jpg"
-        width = "180vw" height = "180vh">
+        width = "265" height = "275">
       </a></div>
     </div>
+           <div class = "box">
+            <div class = "image">
+                <h3>Everlast Black +Sabonete</h3>
+                   <a target="_blank" href=
+                       "https://produto.mercadolivre.com.br/MLB-2006761049-perfume-evelast-black-_JM">
+                       <img src =
+                       "img/everlast.jpg" width = "265" height = "275">
+                   </a></div>
+               </div>
+               <div class = "box">
+                <div class = "image">
+                       <a target="_blank" href=
+                           "https://produto.mercadolivre.com.br/MLB-2007020346-perfume-wild-adventure-_JM">
+                           <img src =
+                           "img/wild.jpg" width = "265" height = "275">
+                       </a></div>
+                   </div>
+    <div class = "box">
+        <div class = "image">
+               <a target="_blank" href=
+                   "https://produto.mercadolivre.com.br/MLB-1817757678-perfumes-importados-da-linha-antnio-bandeira100-original-_JM">
+                   <img src =
+                   "img/hertemptation.jpg" width = "265" height = "275">
+               </a></div>
+           </div>
+
+    <div class = "box">
+     <div class = "image">
+            <a target="_blank" href=
+                "https://produto.mercadolivre.com.br/MLB-1817760613-perfumes-importados-da-linha-antnio-bandeira-100-original-_JM">
+                <img src =
+                "img/king.png" width = "265" height = "275">
+            </a></div>
+        </div>
+            
           <div class = "box">
       <div class = "image">
         <a target="_blank" href=
 "https://produto.mercadolivre.com.br/MLB-1910922076-her-golden-secret-antnio-bandeira-_JM">
           <img src =
           "img/212se.jpg"
-          width = "180vw" height = "180vh">
+          width = "265" height = "275">
         </a></div>
       </div>
       
@@ -39,7 +120,7 @@
     "https://produto.mercadolivre.com.br/MLB-1952965324-perfume-importado-hugo-man-125-ml-_JM">
               <img src =
               "img/hugo.jpg"
-              width = "180vw" height = "180vh">
+              width = "265" height = "275">
             </a></div>
           </div>
 
@@ -49,7 +130,7 @@
                 "https://produto.mercadolivre.com.br/MLB-1819115214-perfume-importado-da-linha-antnio-bandeira100-original-_JM">
                 <img src =
                 "img/antonioBandera.png"
-                width = "180vw" height = "180vh">
+                width = "265" height = "275">
               </a></div>
           </div>
             
@@ -60,7 +141,7 @@
           "https://produto.mercadolivre.com.br/MLB-1865977985-billion-casino-royal-_JM">
                     <img src =
                     "img/casino.jpeg"
-                    width = "180vw" height = "180vh">
+                    width = "265" height = "275">
                   </a></div>
                 </div>
                   <div class = "box">
@@ -69,16 +150,16 @@
               "https://www.mercadolivre.com.br/antonio-banderas-blue-seduction-edt-80ml-para-feminino/p/MLB17477213">
                         <img src =
                         "img/bluef.jpg"
-                        width = "180vw" height = "180vh">
+                        width = "265" height = "275">
                       </a></div>
                     </div> 
                     <div class = "box">
                       <div class = "image">
                         <a target="_blank" href=
-                "https://produto.mercadolivre.com.br/MLB-1949043714-la-petite-fleur-secrete-_JM">
+                "https://produto.mercadolivre.com.br/MLB-1966784273-la-petite-fleur-romantique-_JM">
                           <img src =
-                          "img/petite.jpg"
-                          width = "180vw" height = "180vh">
+                          "img/petite2.jpg"
+                          width = "265" height = "275">
                         </a></div>
                       </div>
                       <div class = "box">
@@ -87,7 +168,7 @@
                   "https://produto.mercadolivre.com.br/MLB-1966787367-power-boost-for-men-_JM">
                             <img src =
                             "img/powerboost.png"
-                            width = "180vw" height = "180vh">
+                            width = "265" height = "275">
                           </a></div>
                         </div>
                         <div class = "box">
@@ -96,7 +177,7 @@
                     "https://produto.mercadolivre.com.br/MLB-1966769402-animale-for-men-_JM">
                               <img src =
                               "img/animale.jpg"
-                              width = "180vw" height = "180vh">
+                              width = "265" height = "275">
                             </a></div>
                           </div>
                         <div class = "box">
@@ -105,7 +186,7 @@
                     "https://produto.mercadolivre.com.br/MLB-1966773274-hugo-just-different-_JM">
                               <img src =
                               "img/hugojust.jpg"
-                              width = "180vw" height = "180vh">
+                              width = "265" height = "275">
                             </a></div>
                           </div>
                       <div class = "box">
@@ -113,8 +194,8 @@
                           <a target="_blank" href=
                   "https://produto.mercadolivre.com.br/MLB-1819117685-perfume-importado-da-linha-antnio-bandeira100-original-_JM">
                             <img src =
-                            "img/power.jpg"
-                            width = "180vw" height = "180vh">
+                            "img/powerOfSeductionsBrancoBanderas.jpg"
+                            width = "265" height = "275">
                           </a></div>
                         </div>
                         <div class = "box">
@@ -123,7 +204,7 @@
                     "https://www.mercadolivre.com.br/antonio-banderas-blue-seduction-edt-100ml-para-masculino/p/MLB6093959?pdp_filters=seller_id:176774316">
                               <img src =
                               "img/blue.png"
-                              width = "180vw" height = "180vh">
+                              width = "265" height = "275">
                             </a></div>
                           </div>
                             <div class = "box">
@@ -131,7 +212,7 @@
                                 <a target="_blank" href="https://produto.mercadolivre.com.br/MLB-1961555227-perfume-fantasy-britney-spears-_JM">
                                   <img src =
                                   "img/britney.jpg"
-                                  width = "180vw" height = "180vh">
+                                  width = "265" height = "275">
                                 </a></div>
                               </div>
                               <div class = "box">
@@ -140,7 +221,7 @@
                                   "https://produto.mercadolivre.com.br/MLB-1817757570-perfumes-importados-da-linha-antnio-bandeira-100-original-_JM">
                                   <img src =
                                     "img/hergolden.jpg"
-                                    width = "180vw" height = "180vh">
+                                    width = "265" height = "275">
                                   </a></div>
                                 </div>
                                 <div class = "box">
@@ -148,15 +229,15 @@
                                     <a target="_blank" href=
                                     "https://produto.mercadolivre.com.br/MLB-1910915124-her-secret-desire-antnio-bandeira-_JM">                                    <img src =
                                       "img/roxokit.jpg"
-                                      width = "180vw" height = "180vh">
+                                      width = "265" height = "275">
                                     </a></div>
                                   </div>                                
                                     <div class = "box">
                                       <div class = "image">
                                         <a target="_blank" href=
-                                        "https://www.mercadolivre.com.br/jacques-bogart-silver-scent-edt-100ml-para-masculino/p/MLB5454249?pdp_filters=seller_id%3A176774316">                                        <img src =
+                                        "https://produto.mercadolivre.com.br/MLB-1961549634-perfume-silver-scent-_JM#position=21&search_layout=grid&type=item&tracking_id=181ab246-9246-4035-8824-46273a2f7d11">                                        <img src =
                                           "img/jaques.jpeg"
-                                          width = "180vw" height = "180vh">
+                                          width = "265" height = "275">
                                         </a></div>
                                       </div>
                                       <div class = "box">
@@ -164,7 +245,7 @@
                                           <a target="_blank" href=
                                           "https://produto.mercadolivre.com.br/MLB-1961543354-perfume-gabriela-sabatini-_JM">                                          <img src =
                                             "img/gabriela.jpg"
-                                            width = "180vw" height = "180vh">
+                                            width = "265" height = "275">
                                           </a></div>
                                         </div>
                                         <div class = "box">
@@ -173,7 +254,7 @@
                                     "https://produto.mercadolivre.com.br/MLB-1957873602-lacosteeau-de-toilette-por-homme-_JM">
                                               <img src =
                                               "img/lacoste.jpeg"
-                                              width = "180vw" height = "180vh">
+                                              width = "265" height = "275">
                                             </a></div>
                                           </div>                        
                                         
@@ -183,135 +264,16 @@
                                               "https://produto.mercadolivre.com.br/MLB-1817757815-perfumes-importados-da-linha-antnio-bandeira100-original-_JM">
                                               <img src =
                                                 "img/antoniosilver.jpg"
-                                                width = "180vw" height = "180vh">
-                                              </a></div>
-                                            </div><div class = "box">
-                                  <div class = "image">
-                                    <a target="_blank" href=
-                                    "https://produto.mercadolivre.com.br/MLB-1910915124-her-secret-desire-antnio-bandeira-_JM">                                    <img src =
-                                      "img/roxokit.jpg"
-                                      width = "180vw" height = "180vh">
-                                    </a></div>
-                                  </div>                                
-                                    <div class = "box">
-                                      <div class = "image">
-                                        <a target="_blank" href=
-                                        "https://www.mercadolivre.com.br/jacques-bogart-silver-scent-edt-100ml-para-masculino/p/MLB5454249?pdp_filters=seller_id%3A176774316">                                        <img src =
-                                          "img/jaques.jpeg"
-                                          width = "180vw" height = "180vh">
-                                        </a></div>
-                                      </div>
-                                      <div class = "box">
-                                        <div class = "image">
-                                          <a target="_blank" href=
-                                          "https://produto.mercadolivre.com.br/MLB-1961543354-perfume-gabriela-sabatini-_JM">                                          <img src =
-                                            "img/gabriela.jpg"
-                                            width = "180vw" height = "180vh">
-                                          </a></div>
-                                        </div>
-                                        <div class = "box">
-                                          <div class = "image">
-                                            <a target="_blank" href=
-                                    "https://produto.mercadolivre.com.br/MLB-1957873602-lacosteeau-de-toilette-por-homme-_JM">
-                                              <img src =
-                                              "img/lacoste.jpeg"
-                                              width = "180vw" height = "180vh">
-                                            </a></div>
-                                          </div>                        
-                                        
-                                          <div class = "box">
-                                            <div class = "image">
-                                              <a target="_blank" href=
-                                              "https://produto.mercadolivre.com.br/MLB-1817757815-perfumes-importados-da-linha-antnio-bandeira100-original-_JM">
-                                              <img src =
-                                                "img/antoniosilver.jpg"
-                                                width = "180vw" height = "180vh">
-                                              </a></div>
-                                            </div><div class = "box">
-                                  <div class = "image">
-                                    <a target="_blank" href=
-                                    "https://produto.mercadolivre.com.br/MLB-1910915124-her-secret-desire-antnio-bandeira-_JM">                                    <img src =
-                                      "img/roxokit.jpg"
-                                      width = "180vw" height = "180vh">
-                                    </a></div>
-                                  </div>                                
-                                    <div class = "box">
-                                      <div class = "image">
-                                        <a target="_blank" href=
-                                        "https://www.mercadolivre.com.br/jacques-bogart-silver-scent-edt-100ml-para-masculino/p/MLB5454249?pdp_filters=seller_id%3A176774316">                                        <img src =
-                                          "img/jaques.jpeg"
-                                          width = "180vw" height = "180vh">
-                                        </a></div>
-                                      </div>
-                                      <div class = "box">
-                                        <div class = "image">
-                                          <a target="_blank" href=
-                                          "https://produto.mercadolivre.com.br/MLB-1961543354-perfume-gabriela-sabatini-_JM">                                          <img src =
-                                            "img/gabriela.jpg"
-                                            width = "180vw" height = "180vh">
-                                          </a></div>
-                                        </div>
-                                        <div class = "box">
-                                          <div class = "image">
-                                            <a target="_blank" href=
-                                    "https://produto.mercadolivre.com.br/MLB-1957873602-lacosteeau-de-toilette-por-homme-_JM">
-                                              <img src =
-                                              "img/lacoste.jpeg"
-                                              width = "180vw" height = "180vh">
-                                            </a></div>
-                                          </div>                        
-                                        
-                                          <div class = "box">
-                                            <div class = "image">
-                                              <a target="_blank" href=
-                                              "https://produto.mercadolivre.com.br/MLB-1817757815-perfumes-importados-da-linha-antnio-bandeira100-original-_JM">
-                                              <img src =
-                                                "img/antoniosilver.jpg"
-                                                width = "180vw" height = "180vh">
-                                              </a></div>
-                                            </div><div class = "box">
-                                  <div class = "image">
-                                    <a target="_blank" href=
-                                    "https://produto.mercadolivre.com.br/MLB-1910915124-her-secret-desire-antnio-bandeira-_JM">                                    <img src =
-                                      "img/roxokit.jpg"
-                                      width = "180vw" height = "180vh">
-                                    </a></div>
-                                  </div>                                
-                                    <div class = "box">
-                                      <div class = "image">
-                                        <a target="_blank" href=
-                                        "https://www.mercadolivre.com.br/jacques-bogart-silver-scent-edt-100ml-para-masculino/p/MLB5454249?pdp_filters=seller_id%3A176774316">                                        <img src =
-                                          "img/jaques.jpeg"
-                                          width = "180vw" height = "180vh">
-                                        </a></div>
-                                      </div>
-                                      <div class = "box">
-                                        <div class = "image">
-                                          <a target="_blank" href=
-                                          "https://produto.mercadolivre.com.br/MLB-1961543354-perfume-gabriela-sabatini-_JM">                                          <img src =
-                                            "img/gabriela.jpg"
-                                            width = "180vw" height = "180vh">
-                                          </a></div>
-                                        </div>
-                                        <div class = "box">
-                                          <div class = "image">
-                                            <a target="_blank" href=
-                                    "https://produto.mercadolivre.com.br/MLB-1957873602-lacosteeau-de-toilette-por-homme-_JM">
-                                              <img src =
-                                              "img/lacoste.jpeg"
-                                              width = "180vw" height = "180vh">
-                                            </a></div>
-                                          </div>                        
-                                        
-                                          <div class = "box">
-                                            <div class = "image">
-                                              <a target="_blank" href=
-                                              "https://produto.mercadolivre.com.br/MLB-1817757815-perfumes-importados-da-linha-antnio-bandeira100-original-_JM">
-                                              <img src =
-                                                "img/antoniosilver.jpg"
-                                                width = "180vw" height = "180vh">
+                                                width = "265" height = "275">
                                               </a></div>
                                             </div>
+                              <footer>
+                              <div class="container-fluid">
+                                  <div class="col-md-12">
+                                      <p> &copy; 2021 MizaShow|Design Caio T. The Unlicense</p>
+                                  </div>
+                              </div>                                    
+                          </footer>
+                            </body>
 
-</body
 </html>
