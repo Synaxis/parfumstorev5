@@ -95,12 +95,13 @@
 
   .gallery {
     transform: scale(1.01);
-    width: 90vw;
+    width: 85vw;
     display: flex;
     flex-flow: row wrap;
     flex-wrap:wrap;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: center;
   }
   .box {
       border:solid 1px;
