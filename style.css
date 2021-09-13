@@ -16,7 +16,7 @@
     text-shadow: 0 0 1px rgba(51,51,51,0.5);
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
-    font-family: arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
   }
 
@@ -101,24 +101,26 @@
     flex-wrap:wrap;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: center;
   }
   .box {
-      border:solid 1px;
-      border-radius:20px;
+    border:solid 1px;
+    font-size:1rem;
+    border-radius:22px;
     flex-basis:5%;
+    text-align:center;
     width:auto;
-    padding:10px;
-    margin:8px;
-        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-        border-radius: 13px 13px 13px 13px;
-        -moz-border-radius: 13px 13px 13px 13px;
-        -webkit-border-radius: 13px 13px 13px 13px;
-        border: 0px solid #000000;
+    padding:8px;
+    margin:7px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 13px 13px 13px 13px;
+   -moz-border-radius: 13px 13px 13px 13px;
+   -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
       }
       .text {
         text-align:center;
+
         margin-top:5px;
       }
       .image:hover {
