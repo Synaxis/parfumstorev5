@@ -1,143 +1,178 @@
 
-
-  .slides {
-    transform: scale(1.01);
-    width: 12vw;
-    height:auto;
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap:wrap;
-    flex-direction: row;
-    align-items: flex-end;
-    }
-  .slides-hidden { display : none; }
-
-  * {
-    text-shadow: 0 0 1px rgba(51,51,51,0.5);
-    -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: auto;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-sizing: border-box;
+  h2, h5, h3  {
+    margin: 0;
+    padding: 0;
+}
+.slider {
+  transform: scale(1.01);
+  width: 12vw;
+  height:auto;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: flex-end;
   }
+.slides-hidden1 { display : none; }
+.slides2 {
+  transform: scale(1.01);
+  width: 12vw;
+  height:auto;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  }
+.slides1 {
+  transform: scale(1.01);
+  width: 12vw;
+  height:auto;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  }
+.slides-hidden1 { display : none; }
+.slides2 {
+  transform: scale(1.01);
+  width: 12vw;
+  height:auto;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  }
+.slides-hidden2 { display : none; }
 
-  /* Style the navigation menu */
+* {
+  text-shadow: 0 0 1px rgba(51,51,51,0.5);
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Style the navigation menu */
 .topnav {   
-  position: fixed;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+position: fixed;
+padding: 0;
+margin: 0;
+overflow: hidden;
+position: relative;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #Links {
-  display: none;
+display: none;
 }
 
 /* Style navigation menu links */
 .topnav a {
-  border-radius: 15px;
-  font-family: monospace;
-  color: white;
-  background-color: #000;
-  padding: 16px 24px;
-  text-decoration: none;
-  font-size: 2.5vh;
-  display: block;
+border-radius: 15px;
+font-family: monospace;
+color: white;
+background-color: #000;
+padding: 16px 24px;
+text-decoration: none;
+font-size: 2.5vh;
+display: block;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  position: fixed;
+position: fixed;
 
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+background: black;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #dcdcdc;
-  color: black;
+background-color: #dcdcdc;
+color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  padding: 0;
-  margin: 0;
-  background-color: #4a4a4a;
-  color: white;
+padding: 0;
+margin: 0;
+background-color: #4a4a4a;
+color: white;
 }
-  h2 {
-    font-size: 3vh;
-  }
-  h4 {
-    font-size: 1.5vh;
-  }
- 
-  h1 h2 h3 h4 h5 h6 {
-      margin: 0;
-  }
-
-  body {
-        width:auto;
-        margin:auto;
-    border-width:10px;
-    border-left-style: solid;
-    border-left-color:#bebebe;
-    border-right-style: solid;
-    border-right-color: #bebebe;
-    margin: 0px;
-    font-family: sans-serif;
+h2 {
+  font-size: 3vh;
+}
+h4 {
+  font-size: 1.5vh;
 }
 
-  .gallery {
-    transform: scale(1.01);
-    width: 85vw;
-    display: flex;
-    flex-flow: row wrap;
-    flex-wrap:wrap;
-    flex-direction: row;
-    align-items: flex-end;
-  }
-  .box {
-    border:solid 1px;
-    font-size:1rem;
-    border-radius:22px;
-    flex-basis:5%;
-    text-align:center;
-    width:auto;
-    padding:8px;
-    margin:7px;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    border-radius: 13px 13px 13px 13px;
-   -moz-border-radius: 13px 13px 13px 13px;
-   -webkit-border-radius: 13px 13px 13px 13px;
-    border: 0px solid #000000;
-      }
-      .text {
-        text-align:center;
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+}
 
-        margin-top:5px;
-      }
-      .image:hover {
-        border: 2px solid rgb(102, 102, 105);
-        border-radius:10px;
+body {
+      width:auto;
+      margin:auto;
+  border-width:10px;
+  border-left-style: solid;
+  border-left-color:#bebebe;
+  border-right-style: solid;
+  border-right-color: #bebebe;
+  margin: 0px;
+  font-family: sans-serif;
+}
 
+.gallery {
+  transform: scale(1.00);
+  width: 112vw;
+  display: flex;
+  flex-flow: row wrap;
+  flex-wrap:wrap;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.box {
+  border:solid 1px;
+  font-size:1rem;
+  border-radius:22px;
+  flex-basis:5%;
+  text-align:center;
+  width:auto;
+  padding:8px;
+  margin:7px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+ /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; miza pediu */
+  border-radius: 13px 13px 13px 13px;
+ -moz-border-radius: 13px 13px 13px 13px;
+ -webkit-border-radius: 13px 13px 13px 13px;
+  border: 0px solid #000000;
+    }
+    .text {
+      text-align:center;
+
+      margin-top:5px;
+    }
+    .image:hover {
+      border: 2px solid rgb(102, 102, 105);
+      border-radius:10px;
+
+    }
+    
+    /* media query used here */
+    @media only screen and (max-width: 300px) {
+      .box {
+        flex-basis: 100%;
       }
-      
-      /* media query used here */
-      @media only screen and (max-width: 300px) {
-        .box {
-          flex-basis: 100%;
-        }
+    }
+    
+    @media only screen and (max-width:500px) {
+      .box {
+        flex-basis: 40%;
       }
-      
-      @media only screen and (max-width:500px) {
-        .box {
-          flex-basis: 40%;
-        }
-      }
+    }
