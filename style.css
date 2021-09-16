@@ -1,5 +1,4 @@
-
-  h2, h5, h3  {
+h2, h5, h3  {
     margin: 0;
     padding: 0;
 }
@@ -34,6 +33,7 @@
   flex-direction: row;
   align-items: flex-end;
   }
+
 .slides-hidden1 { display : none; }
 .slides2 {
   transform: scale(1.01);
@@ -130,12 +130,13 @@ body {
 
 .gallery {
   transform: scale(1.00);
-  width: 112vw;
+  width: 125vw;
   display: flex;
   flex-flow: row wrap;
   flex-wrap:wrap;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: center;
 }
 .box {
   border:solid 1px;
