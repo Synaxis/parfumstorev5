@@ -34,32 +34,6 @@ function myFunction() {
   }
 }
 </script>
-<script>
-  addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
-      var index = 0;
-      const slides1 = document.querySelectorAll(".slides1");
-      const classHide1 = "slides-hidden1", count = slides1.length;
-      nextSlide1();
-      function nextSlide1() {
-          slides1[(index ++) % count].classList.add(classHide1);
-          slides1[index % count].classList.remove(classHide1);
-          setTimeout(nextSlide1, 1400);
-      }
-  });
-</script>
-<script>
-  addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
-      var index = 0;
-      const slides2 = document.querySelectorAll(".slides2");
-      const classHide2 = "slides-hidden2", count = slides2.length;
-      nextSlide2();
-      function nextSlide2() {
-          slides2[(index ++) % count].classList.add(classHide2);
-          slides2[index % count].classList.remove(classHide2);
-          setTimeout(nextSlide2, 1400);
-      }
-  });
-</script>
 <body>
   <br>
   <video class="video" width="400" height="290" controls>
@@ -134,7 +108,8 @@ function myFunction() {
                            "img/camaro.jpg" width = "225" height = "205">
                        </a></div>
                    </div>
-                                  <div class = "box">                 
+
+                <div class = "box">                 
                 <div class = "image">
                     <h5>CalvinKlein Everyone</h5>
                     <h5>248,99</h5>
@@ -143,7 +118,9 @@ function myFunction() {
                            <img src =
                            "img/calvin.jpg" width = "225" height = "205">
                        </a></div>
-                   </div>               <div class = "box">                 
+                   </div>
+
+               <div class = "box">                 
                 <div class = "image">
                     <h5>Colcci Urban</h5>
                     <h5>114,99</h5>
@@ -153,7 +130,8 @@ function myFunction() {
                            "img/urban.jpg" width = "225" height = "205">
                        </a></div>
                    </div>
-                                  <div class = "box">                 
+
+                <div class = "box">                 
                 <div class = "image">
                     <h5>Wild Adventure</h5>
                     <h5>107</h5>
@@ -221,7 +199,7 @@ function myFunction() {
                   "img/antonioBandera.png"
                   width = "225" height = "205">
               </a></div>
-          </div>
+          	</div>
 
 
                   <div class = "box">
@@ -487,14 +465,12 @@ function myFunction() {
     </div>
 
 
-		<div class = "box">
-			<div class = "image">
-				<a target="_blank" href=
-                "https://sun.eduzz.com/127393?a=68205449">
-					<img src = "img/inteligencia.jpg"
-				width = "205" height = "205">
-      </a></div>
-    </div>
+	<div class = "box">
+	<div class = "image">
+	<a target="_blank" href="https://sun.eduzz.com/127393?a=68205449">
+	<img src = "img/inteligencia.jpg" width = "205" height = "205">
+	     </a></div>
+	</div>
 
          <div class = "box">
           <div class = "image">
@@ -512,13 +488,11 @@ function myFunction() {
           </a></div>
         </div>
         
-         <div class = "box">
+        <div class = "box">
         <div class = "image">
             <a target="_blank" href=
             "https://sun.eduzz.com/870075?a=68205449">
-                <img src =
-        "img/vendas.jpg"
-            width = "205" height = "205">
+                <img src ="img/vendas.jpg" width = "205" height = "205">
           </a></div>
         </div>
         
@@ -538,7 +512,7 @@ function myFunction() {
 <h1 style="text-align:center;" >Contato</h1>
       <div class = "gallery">
 
-            <div class = "box"> <!--  add blank spaces-->
+            <div class = "box"> <!--  add espaco em branco-->
             </div>
 
 
