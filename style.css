@@ -38,10 +38,10 @@ display: none;
 border-radius: 15px;
 font-family: monospace;
 color: white;
+font-size: 30px;
 background-color: #000;
 padding: 16px 24px;
 text-decoration: none;
-font-size: 2.4vh;
 display: block;
 }
 
@@ -83,18 +83,17 @@ h1 h2 h3 h4 h5 h6 {
 body {
   width:auto;
   margin:auto;
-  border-width:10px;
+  /*border-width:10px;
   border-left-style: solid;
   border-left-color:#bebebe;
   border-right-style: solid;
-  border-right-color: #bebebe;
+  border-right-color: #bebebe; */
   margin: 0px;
   font-family: sans-serif;
 }
 
 .gallery {
   transform: scale(1.00);
-  width: 125vw;
   display: flex;
   flex-flow: row wrap;
   flex-wrap:wrap;
