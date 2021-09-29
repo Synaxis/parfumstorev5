@@ -3,8 +3,8 @@
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: auto;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  box-sizing: border-box;
-  -webkit-box-sizing: inherit;
+box-sizing: border-box;
+-webkit-box-sizing: inherit;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizeLegibility;
@@ -69,7 +69,6 @@ text-rendering: optimizeLegibility;
 
 }
 
-
 a,
 button {
   font-family: inherit;
@@ -108,7 +107,6 @@ button {
 
 .brand {
   font-family: inherit;
-  font-size: 1.75rem;
   font-weight: 700;
   line-height: inherit;
   color: #3483fa;
