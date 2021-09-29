@@ -7,33 +7,216 @@
   <link rel="stylesheet" href="style.css">
 <!-- Icone font awesome pra navbar -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="reset.min.css">
 </head>
-<header>
-<!-- Top Navigation Menu -->
-<div class="topnav">
-<a href="index.html" class="active" style="text-align: center; font-size: 2.5rem;">MS Meu Negocio</a>
-<!-- Navigation links (hidden by default) -->
-<div id="Links">    
-  <a href="cursos.html">Cursos</a>
-  <a href="acessorios.html">Acessorios</a>
-  <a href="sobre.html">Sobre</a>
-</div>
-<!-- "Menu 3 linhas -->
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  <i class="fa fa-bars"></i>
-</a>
-</div>
-</header>
-<script>/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("Links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+</head>
+<body>
+  <!-- Section: Header -->
+  <header class="header">
+    <div class="container">
+      <div class="wrapper">
+        <div class="header-item-left">
+          <h1><a href="index.html" class="brand">Mizashow</a></h1>
+        </div>
+        <!-- Section: Navbar Menu -->
+        <div class="header-item-center">
+          <div class="overlay"></div>
+          <nav class="menu">
+            <div class="menu-mobile-header">
+              <button type="button" class="menu-mobile-arrow"><i class="ion ion-ios-arrow-back"></i></button>
+              <div class="menu-mobile-title"></div>
+              <button type="button" class="menu-mobile-close"><i class="ion ion-ios-close"></i></button>
+            </div>
+            <ul class="menu-section">
+              <li><a href="#">Inicio</a></li>
+              <li class="menu-item-has-children">
+                <a href="#">Novo item <i class="ion ion-ios-arrow-down"></i></a>
+                <div class="menu-subs menu-mega menu-column-4">
+                  <div class="list-item text-center">
+                    <a href="#">
+                      <img src="img/212se.jpg" class="responsive" alt="Novo item">
+                      <h4 class="title">Novo item 1</h4>
+                    </a>
+                  </div>
+                  <div class="list-item text-center">
+                    <a href="#">
+                      <img src="img/hergolden.jpg" class="responsive" alt="Novo item">
+                      <h4 class="title">Novo item 2</h4>
+                    </a>
+                  </div>
+                  <div class="list-item text-center">
+                    <a href="#">
+                      <img src="img/hugojust.jpg" class="responsive" alt="Novo item">
+                      <h4 class="title">Novo item 3</h4>
+                    </a>
+                  </div>
+                  <div class="list-item text-center">
+                    <a href="#">
+                      <img src="img/mont.jpeg" class="responsive" alt="Novo item">
+                      <h4 class="title">Novo item 4</h4>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Categorias <i class="ion ion-ios-arrow-down"></i></a>
+                <div class="menu-subs menu-mega menu-column-4">
+                  <div class="list-item">
+                    <h4 class="title">Men's</h4>
+                    <ul>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                    </ul>
+                    <h4 class="title">Kids's</h4>
+                    <ul>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Fashion Feminino</h4>
+                    <ul>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                    </ul>
+                    <h4 class="title">Saude & Beleza</h4>
+                    <ul>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Casa & Utensilios</h4>
+                    <ul>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                      <li><a href="#">Produtos</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <img src="./asset/image-5.jpg" class="responsive" alt="Shop Product">
+                  </div>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Artigos <i class="ion ion-ios-arrow-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="#">Artigo 1</a></li>
+                    <li><a href="#">Artigo 2</a></li>
+                    <li><a href="#">Artigo 3</a></li>  
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="#">Conta <i class="ion ion-ios-arrow-down"></i></a>
+                <div class="menu-subs menu-column-1">
+                  <ul>
+                    <li><a href="#">Mais informações & Register</a></li>
+                    <li><a href="#">Nosso Youtube</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-item-right">
+          <a href="#" class="menu-icon"><i class="ion ion-md-search"></i></a>
+          <a href="#" class="menu-icon"><i class="ion ion-md-heart"></i></a>
+          <a href="#" class="menu-icon"><i class="ion ion-md-cart"></i></a>
+          <button type="button" class="menu-mobile-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+		<script> const menu = document.querySelector('.menu');
+      const menuSection = menu.querySelector('.menu-section');
+      const menuArrow = menu.querySelector('.menu-mobile-arrow');
+      const menuClosed = menu.querySelector('.menu-mobile-close');
+      const menuTrigger = document.querySelector('.menu-mobile-trigger');
+      const menuOverlay = document.querySelector('.overlay');
+      let subMenu;
+      
+      menuSection.addEventListener('click', (e) => {
+         if (!menu.classList.contains('active')) {
+            return;
+         }
+         if (e.target.closest('.menu-item-has-children')) {
+            const hasChildren = e.target.closest('.menu-item-has-children');
+            showSubMenu(hasChildren);
+         }
+      });
+      
+      menuArrow.addEventListener('click', () => {
+         hideSubMenu();
+      });
+      
+      menuTrigger.addEventListener('click', () => {
+         toggleMenu();
+      });
+      
+      menuClosed.addEventListener('click', () => {
+         toggleMenu();
+      });
+      
+      menuOverlay.addEventListener('click', () => {
+         toggleMenu();
+      });
+      
+      // Show & Hide Toggle Menu Function
+      function toggleMenu() {
+         menu.classList.toggle('active');
+         menuOverlay.classList.toggle('active');
+      }
+      
+      // Show the Mobile Side Menu Function
+      function showSubMenu(hasChildren) {
+         subMenu = hasChildren.querySelector('.menu-subs');
+         subMenu.classList.add('active');
+         subMenu.style.animation = 'slideLeft 0.5s ease forwards';
+         const menuTitle = hasChildren.querySelector('i').parentNode.childNodes[0].textContent;
+         menu.querySelector('.menu-mobile-title').innerHTML = menuTitle;
+         menu.querySelector('.menu-mobile-header').classList.add('active');
+      }
+      
+      // Hide the Mobile Side Menu Function
+      function hideSubMenu() {
+         subMenu.style.animation = 'slideRight 0.5s ease forwards';
+         setTimeout(() => {
+            subMenu.classList.remove('active');
+         }, 300);
+      
+         menu.querySelector('.menu-mobile-title').innerHTML = '';
+         menu.querySelector('.menu-mobile-header').classList.remove('active');
+      }
+      
+      // Windows Screen Resizes Function
+      window.onresize = function () {
+         if (this.innerWidth > 991) {
+            if (menu.classList.contains('active')) {
+               toggleMenu();
+            }
+         }
+      };
+      </script>
+
 <body>
   <br>
   <video class="video" width="480" height="390" controls>
