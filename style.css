@@ -178,7 +178,7 @@ button {
 }
 
 .header-item-right .menu-icon {
-  font-size: 1.35rem;
+  font-size: 1.65rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,7 +207,7 @@ button {
 .header .menu > ul > li > a {
   position: relative;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.25;
   border: none;
