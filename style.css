@@ -1,3 +1,42 @@
+
+form {
+  background-color: #4654e1;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+input {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+
+svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
 .js-Carousel {
   background: white;
   height: 455px;
@@ -100,6 +139,7 @@
 
 * {
   text-shadow: 0 0 1px rgba(51,51,51,0.5);
+  
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: auto;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -232,13 +272,13 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  height: 5vh;
+  height: 3vh;
   padding: 0.6rem 12rem;
   margin: 0 auto;
   z-index: 999;
   border: none;
   outline: none;
-  background: #ffffff;
+  background-color: rgb(0, 134, 255);
   -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
           box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -255,21 +295,34 @@ button {
 }
 
 .header-item-left {
+  position:relative;
+  top:-35px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 17%;
           flex: 0 0 17%;
 }
 
 .header-item-center {
+  position:relative;
+  top:-35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 66%;
           flex: 0 0 66%;
+}
+
+/* Style the search box inside the navigation bar */
+.header-item-center input[type=text] {
+
+  padding: 10px;
+  border: 2px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 17px;
 }
 
 .header-item-right {
@@ -315,6 +368,7 @@ button {
 }
 
 .header .menu > ul > li > a {
+
   position: relative;
   font-family: inherit;
   font-size: 1.2rem;

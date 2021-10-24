@@ -25,6 +25,25 @@
 * @param {(string)} [options.arrPrevText=&laquo;] - Text for _PREV_ arrow.
 * @param {(string)} [options.arrNextText=&raquo;] - Text for _NEXT_ arrow.
 */
+
+//search 
+
+
+
+function PesquisaPerfume() {
+    var input = document.getElementById("Pesquisa");
+    var filter = input.value.toLowerCase();
+    var nodes = document.getElementsByClassName('box');
+  
+    for (i = 0; i < nodes.length; i++) {
+      if (nodes[i].innerText.toLowerCase().includes(filter)) {
+        nodes[i].style.display = "block";
+      } else {
+        nodes[i].style.display = "none";
+      }
+    }
+  }
+//search 
 function Carousel(options) {
     var element  = document.getElementById(options.elem || 'carousel'),
         interval = options.interval || 3000,
