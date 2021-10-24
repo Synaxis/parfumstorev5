@@ -250,6 +250,8 @@ button {
 
 @media only screen and (max-width: 992px) {
   .container {
+    bottom: -50px;
+    position: relative;
     padding: 0 1rem;
     margin: 0 auto;
   }
@@ -552,7 +554,8 @@ border-radius: 5px;
     position: relative;
     display: block;
     cursor: pointer;
-    width: 1.75rem;
+    width: 2.75rem;
+    bottom: 50px;
     height: 1rem;
     border: none;
     outline: none;
@@ -866,7 +869,7 @@ h2 {
   font-size: 3vh;
 }
 h5 {
-  font-size: 1.8vh;
+  font-size: 1.1vh;
   padding: 0;
   margin: 0;
 }
