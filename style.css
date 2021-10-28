@@ -253,7 +253,7 @@ button {
 @media only screen and (max-width: 700px) {
   .container {
     position: relative;
-    padding: 0 1rem;
+    padding: 0;
     margin: 0 auto;
   }
 }
@@ -308,7 +308,9 @@ button {
 }
 
 .header-item-center {
-  top:-3vh;
+  margin:0;
+  padding:0;
+  border:0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,8 +376,7 @@ border-radius: 5px;
   bottom: -10px;
   position: relative;
   font-family: inherit;
-  font-size: 3vh;
-  font-weight: 500;
+  font-size: 5vh;
   border: none;
   outline: none;
   color: #121212;
@@ -412,12 +413,13 @@ border-radius: 5px;
 }
 
 .header .menu > ul > li .menu-subs > ul > li > a {
+  margin:0;
+border:0;
   display: inline-block;
   font-family: inherit;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.25;
-  padding: 0.75rem 0;
   border: none;
   outline: none;
   color: #121212;
