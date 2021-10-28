@@ -891,6 +891,7 @@ body {
 }
 
 .gallery {
+  margin-top: 4vh;
   transform: scale(1.10);
   display: flex;
   flex-flow: row wrap;
