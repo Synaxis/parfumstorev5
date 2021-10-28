@@ -1542,7 +1542,7 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high
 #EXTINF:-1 tvg-id="BLKTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://pbs.twimg.com/profile_images/706774153001639938/VCkr2ys5_400x400.jpg" group-title="",BLK TV (1080p)
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="BLKTVHohenmolsen.de" tvg-country="DE" tvg-language="" tvg-logo="https://i.imgur.com/D5wePo5.jpg" group-title="",BLK TV Hohenmölsen (1080p)
-http://62.113.210.250/medienasa-live/BLKonline_high/playlist.m3u8
+http://62.113.210.210/medienasa-live/BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="BloodyDisgusting.us" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/602dd011302f4d7da05d4bf3" group-title="Movies",Bloody Disgusting (1080p)
 https://bloodydisgusting-ingest-roku-us.cinedigm.com/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergHT.us" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/6aarbHM.jpg" group-title="Business",Bloomberg HT (720p)
@@ -1818,9 +1818,9 @@ http://v3.tustreaming.cl/campoabierto/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="CampusTV.hn" tvg-country="HN" tvg-language="" tvg-logo="" group-title="",Campus TV (360p) [Not 24/7]
 http://st2.worldkast.com/8004/8004/playlist.m3u8
 #EXTINF:-1 tvg-id="CampusTVMagdeburg.de" tvg-country="DE" tvg-language="German" tvg-logo="https://yt3.ggpht.com/-p6SxYHWfzPA/AAAAAAAAAAI/AAAAAAAAAAA/v8ceLuwU1Qg/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" group-title="",Campus TV Magdeburg (1080p)
-http://62.113.210.250/medienasa-live/ok-wernigerode_high/hasbahca.m3u8
+http://62.113.210.210/medienasa-live/ok-wernigerode_high/hasbahca.m3u8
 #EXTINF:-1 tvg-id="CampusTVMagdeburgPlus.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",Campus-TV-Magdeburg+ (1080p)
-http://62.113.210.250/medienasa-live/ok-wernigerode_high/chunklist_w937425968.m3u8
+http://62.113.210.210/medienasa-live/ok-wernigerode_high/chunklist_w937425968.m3u8
 #EXTINF:-1 tvg-id="CanTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/qdBr2fH/kgwc6oT.jpg" group-title="",Can TV (720p)
 http://canbroadcast.com:7000/canlican/tv.m3u8
 #EXTINF:-1 tvg-id="CANTV.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",CAN TV (720p) [Not 24/7]
@@ -6829,11 +6829,11 @@ https://s.ok54.de/oklu/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKMagdeburg.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okmagdeburg.png" group-title="",OK Magdeburg (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-magdeburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",OK Magdeburg
-http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-magdeburg_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/_definst_/mp4:ok-magdeburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",OK Mainz
 https://s.ok54.de/oktvmainz/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",OK Merseburg
-http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-merseburg_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/_definst_/mp4:ok-merseburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="OKMerseburgQuerfurt.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okmerseburg.png" group-title="",OK Merseburg-Querfurt (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-merseburg_high/playlist.m3u8
 #EXTINF:-1 tvg-id="OKRheinMain.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/XsmPI4N.jpg" group-title="",OK Rhein-Main (576p) [Not 24/7]
@@ -6857,7 +6857,7 @@ https://s.ok54.de/okweinstrasse/okweinstrasse/playlist.m3u8
 #EXTINF:-1 tvg-id="OKWernigerode.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okwernigerode.png" group-title="",OK Wernigerode (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",OK Wernigerode
-http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8
 #EXTINF:-1 tvg-id="OlayTurkTV.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",Olay Türk TV (720p)
 https://waw2.artiyerelmedya.net/olayturk/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="OlayTurkKayseri.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",OlayTürk Kayseri (720p)
@@ -6935,7 +6935,7 @@ http://210.210.155.35/uq2663/h/h143/02.m3u8
 #EXTINF:-1 tvg-id="ONEFMTV.ch" tvg-country="CH" tvg-language="" tvg-logo="" group-title="",ONE FM TV (720p)
 https://edge4.vedge.infomaniak.com/livecast/smil:onefmmd.smil/manifest.m3u8
 #EXTINF:-1 tvg-id="OneGolf.pk" tvg-country="PK" tvg-language="" tvg-logo="https://i.imgur.com/CKnSeT7.png" group-title="Sports",One Golf (720p)
-http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
+http://162.210.201.58:6211/pk/ONEGOLF/index.m3u8
 #EXTINF:-1 tvg-id="OneTv.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/ssMOeaj.png" group-title="Entertainment",One TV (720p)
 http://137.59.86.218:1935/live/onetv/playlist.m3u8
 #EXTINF:-1 tvg-id="OneTV.ch" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/YEQ957V.png" group-title="",One TV (720p)
@@ -8991,7 +8991,7 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:punktum_high/playlist.m3
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",PunktUm Hettstedt
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:punktum_high/playlist.m3u8
 #EXTINF:-1 tvg-id="PunktumSdharz.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",Punktum S�dharz (1080p)
-http://62.113.210.250/medienasa-live/punktum_high/master.m3u8
+http://62.113.210.210/medienasa-live/punktum_high/master.m3u8
 #EXTINF:-1 tvg-id="Punt3VallUixo.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",Punt 3 Vall Uixó (1080p)
 https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
 #EXTINF:-1 tvg-id="PuntaCanaTV.do" tvg-country="DO" tvg-language="" tvg-logo="https://pbs.twimg.com/profile_images/735482998372630529/bEgiPOU1_400x400.jpg" group-title="",Punta Cana TV (720p) [Not 24/7]
@@ -9335,13 +9335,13 @@ https://443-1.autopo.st/100/live/bcgurduwarabrookside/chunks.m3u8
 #EXTINF:-1 tvg-id="Ran1.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",Ran 1 (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RAN1.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ran1.png" group-title="",RAN1 (1080p)
-http://62.113.210.250/medienasa-live/mp4:ran1_high/master.m3u8
+http://62.113.210.210/medienasa-live/mp4:ran1_high/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",Ran1 Dessau-Roßlau
-http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ran1_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/_definst_/mp4:ran1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RAN1Regionalfernsehen.de" tvg-country="DE" tvg-language="German" tvg-logo="http://www.ran1.de/img/ban1.png" group-title="",RAN1 Regionalfernsehen (1080p)
-http://62.113.210.250:1935/medienasa-live/mp4:ran1_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/mp4:ran1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RAN1Regionalfernsehen.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/NUP8ZBb.png" group-title="",RAN1 Regionalfernsehen (1080p)
-http://62.113.210.250:1935/medienasa-live/ran1_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/ran1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RangarangTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/s5yF9aU.jpg" group-title="",Rangarang TV (720p) [Not 24/7]
 https://iptv.rangarang.us/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RapsodiaTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.ibb.co/TH1T2Y2/Rapsodia-TV.png" group-title="",Rapsodia TV (576p)
@@ -9563,7 +9563,7 @@ https://cdn87.theus6tv.tk/locals/NewYorkCity/wpix-dt4.m3u8
 #EXTINF:-1 tvg-id="RFH.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rfh.png" group-title="",RFH (1080p)
 https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:RFH_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RFHHarz.de" tvg-country="DE" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/e/ea/RFH-Logo.svg/200px-RFH-Logo.svg.png" group-title="",RFH Harz (1080p)
-http://62.113.210.250/medienasa-live/RFH_high/master.m3u8
+http://62.113.210.210/medienasa-live/RFH_high/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RFH Harz
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:RFH_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RFHTV.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",RFH TV (1080p)
@@ -12108,7 +12108,7 @@ https://59f2354c05961.streamlock.net:1443/tvguara/tvguara/playlist.m3u8
 #EXTINF:-1 tvg-id="TVHalle.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvhalle.png" group-title="",TV Halle (720p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/tvhalle_high/playlist.m3u8
 #EXTINF:-1 tvg-id="TVHalle.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/GUBVccx.png" group-title="",TV Halle (720p)
-http://62.113.210.250/medienasa-live/tvhalle_high/playlist.m3u8
+http://62.113.210.210/medienasa-live/tvhalle_high/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",TV Halle
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:tvhalle_high/playlist.m3u8
 #EXTINF:-1 tvg-id="TVHaugaland.no" tvg-country="NO" tvg-language="Norwegian Bokmål" tvg-logo="https://i.imgur.com/lHDz1bm.png" group-title="",TV Haugaland (720p) [Not 24/7]
@@ -13158,7 +13158,7 @@ http://71.187.29.220:8000/play/a08o/index.m3u8
 #EXTINF:-1 tvg-id="Wtv.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://1.bp.blogspot.com/-u2cQaqrC-MM/XtMgGoEPjuI/AAAAAAAAAi0/MdatufRBFL8tzM7UQ-W6QlN4EwCrwBprgCLcBGAsYHQ/s400/71062193_108412730561392_4146096209032904704_o.png" group-title="Local",Wtv (La Verdad y Punto) (Chincha) [Not 24/7]
 https://v4.tustreaming.cl/wtv/live1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",WTV Wettin
-http://62.113.210.250:1935/medienasa-live/ok-wettin_high/playlist.m3u8
+http://62.113.210.210:1935/medienasa-live/ok-wettin_high/playlist.m3u8
 #EXTINF:-1 tvg-id="WuTangCollection.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/jbMmsjI.png" group-title="Music",Wu Tang Collection (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=73
 #EXTINF:-1 tvg-id="WuanPlus.ec" tvg-country="EC" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/WuanPlus/picture?width=320&height=320" group-title="General",Wuan+ (720p)
@@ -14840,7 +14840,7 @@ http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 #EXTINF:-1 tvg-id="LuoYangZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",洛陽綜合頻道 (720p)
 http://live1.lytv.com.cn:1935/live/LYTV1-1/playlist.m3u8
 #EXTINF:-1 tvg-id="HongYaXinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",洪雅新闻综合 (1080p)
-http://117.172.215.250:8083/videos/live/35/39/GQVbrgob5CGJM/GQVbrgob5CGJM.m3u8
+http://117.172.215.210:8083/videos/live/35/39/GQVbrgob5CGJM/GQVbrgob5CGJM.m3u8
 #EXTINF:-1 tvg-id="JiNingGongGong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",济宁公共 (450p)
 http://lives.jnnews.tv/video/s10001-JTV3/index.m3u8
 #EXTINF:-1 tvg-id="JiNingTuWen.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",济宁图文 (576p)
