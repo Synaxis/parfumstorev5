@@ -1,8 +1,21 @@
+* {
+  text-shadow: 0 0 1px rgba(51,51,51,0.5);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+}
 
 form {
   background-color: #4654e1;
-  width: 20vw;
-  height: 44px;
+  width: 40vw;
+  height: 55px;
   border-radius: 5px;
   display:flex;
   flex-direction:row;
@@ -137,17 +150,6 @@ button {
 }
 
 
-* {
-  text-shadow: 0 0 1px rgba(51,51,51,0.5);
-  
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto;
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-box-sizing: border-box;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility;
-}
 
 @-webkit-keyframes slideLeft {
   0% {
@@ -801,11 +803,11 @@ border-radius: 5px;
 
 
 
-h2, h5, h3  {
+h2, h6, h3  {
     margin: 0;
     padding: 0;
 }
-h5 {
+h6 {
 font-size: 0.70em;
 }
 h1 {
@@ -868,13 +870,13 @@ h3 {
 h2 {
   font-size: 3vh;
 }
-h5 {
+h6 {
   font-size: 0.8vh;
   padding: 0;
   margin: 0;
 }
 
-h1 h2 h3 h5 h5 h6 {
+h1 h2 h3 h6 h6 h6 {
   margin: 0;
 }
 
@@ -892,6 +894,7 @@ body {
 
 .gallery {
   margin-top: 4vh;
+  padding: 3vw;
   transform: scale(1.10);
   display: flex;
   flex-flow: row wrap;
@@ -906,8 +909,7 @@ body {
   flex-basis:5%;
   text-align:center;
   width:auto;
-  padding:8px;
-  margin:7px;
+  margin:3px;
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; miza pediu */
   border-radius: 13px 13px 13px 13px;
